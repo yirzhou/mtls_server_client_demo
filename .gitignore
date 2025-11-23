@@ -1,0 +1,30 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Certificate private keys (keep .crt files for reference, but ignore .key files)
+certs/*.key
+certs/*.csr
+certs/*.srl
+
+# Optional: uncomment to ignore all certs
+# certs/
